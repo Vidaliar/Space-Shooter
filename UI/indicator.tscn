@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpvig745v1qmw"]
+
+[ext_resource type="Texture2D" uid="uid://tdj8j2m7fhk3" path="res://Assets/Player.png" id="1_miixw"]
+
+[node name="Indicator" type="Node2D"]
+
+[node name="Lives" type="Sprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_miixw")
